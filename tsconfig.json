@@ -1,0 +1,21 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "declaration": true,
+    "pretty": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "outDir": "lib",
+    "typeRoots": ["node_modules/@types", "@types"],
+    "lib": ["es2017"]
+  },
+  "include": ["src/**/*"]
+}

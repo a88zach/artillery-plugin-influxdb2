@@ -1,0 +1,23 @@
+{
+  "name": "artillery-plugin-influxdb2",
+  "version": "1.0.0",
+  "description": "Artillery.io plugin for influxdb",
+  "author": "SemanticBits, LLC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/semanticbits/artillery-plugin-influxdb2"
+  },
+  "license": "UNLICENSED",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rimraf lib && tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^13.11.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "influx": "^5.5.1"
+  }
+}
