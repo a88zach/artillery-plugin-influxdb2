@@ -1,11 +1,11 @@
 {
   "name": "artillery-plugin-influxdb2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Artillery.io plugin for influxdb",
-  "author": "SemanticBits, LLC",
+  "author": "Zach Tindall",
   "repository": {
     "type": "git",
-    "url": "https://github.com/semanticbits/artillery-plugin-influxdb2"
+    "url": "https://github.com/a88zach/artillery-plugin-influxdb2"
   },
   "license": "UNLICENSED",
   "main": "lib/index.js",
